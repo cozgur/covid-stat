@@ -25,6 +25,8 @@
 		779BC3F0261D0A8C001612FA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BC3EF261D0A8C001612FA /* SearchView.swift */; };
 		779BC3F3261D0CA1001612FA /* CountryDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BC3F2261D0CA1001612FA /* CountryDetailRow.swift */; };
 		779BC3F6261D0DF1001612FA /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BC3F5261D0DF1001612FA /* CountryDetailView.swift */; };
+		779BC3FE261E4B80001612FA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BC3FD261E4B80001612FA /* MapView.swift */; };
+		779BC401261E4F97001612FA /* MapContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BC400261E4F97001612FA /* MapContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		779BC3EF261D0A8C001612FA /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		779BC3F2261D0CA1001612FA /* CountryDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailRow.swift; sourceTree = "<group>"; };
 		779BC3F5261D0DF1001612FA /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
+		779BC3FD261E4B80001612FA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		779BC400261E4F97001612FA /* MapContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContainerView.swift; sourceTree = "<group>"; };
 		A1CDEEDF0350BAF4BF2985D7 /* Pods-CoronaStats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoronaStats.release.xcconfig"; path = "Target Support Files/Pods-CoronaStats/Pods-CoronaStats.release.xcconfig"; sourceTree = "<group>"; };
 		AD403AF009863CAAB17FC3FE /* Pods-CoronaStats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoronaStats.debug.xcconfig"; path = "Target Support Files/Pods-CoronaStats/Pods-CoronaStats.debug.xcconfig"; sourceTree = "<group>"; };
 		D6DF4CC92FA83402AEF8A7CD /* Pods_CoronaStats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoronaStats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +85,7 @@
 				779BC3EC261D0501001612FA /* TotalDataView.swift */,
 				779BC3EF261D0A8C001612FA /* SearchView.swift */,
 				779BC3F2261D0CA1001612FA /* CountryDetailRow.swift */,
+				779BC3FD261E4B80001612FA /* MapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 				775BDE6B25E8311B00E585FD /* Info.plist */,
 				775BDE6825E8311B00E585FD /* CoronaStats.xcdatamodeld */,
 				775BDE6325E8311B00E585FD /* Preview Content */,
+				779BC400261E4F97001612FA /* MapContainerView.swift */,
 			);
 			path = CoronaStats;
 			sourceTree = "<group>";
@@ -270,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				779BC3F3261D0CA1001612FA /* CountryDetailRow.swift in Sources */,
+				779BC3FE261E4B80001612FA /* MapView.swift in Sources */,
 				775BDE7725E8374900E585FD /* CovidFetchRequest.swift in Sources */,
 				775BDE6725E8311B00E585FD /* Persistence.swift in Sources */,
 				775BDE6A25E8311B00E585FD /* CoronaStats.xcdatamodeld in Sources */,
@@ -279,6 +286,7 @@
 				772B40F025EAF5D400F19895 /* RecentView.swift in Sources */,
 				775BDE5E25E8311900E585FD /* CoronaStatsApp.swift in Sources */,
 				779BC3F6261D0DF1001612FA /* CountryDetailView.swift in Sources */,
+				779BC401261E4F97001612FA /* MapContainerView.swift in Sources */,
 				779BC3F0261D0A8C001612FA /* SearchView.swift in Sources */,
 				772B40F425EAFB8100F19895 /* ListHeaderView.swift in Sources */,
 				779BC3EA261D011A001612FA /* TotalDataCard.swift in Sources */,
@@ -341,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -396,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

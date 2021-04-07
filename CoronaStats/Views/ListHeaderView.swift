@@ -40,7 +40,7 @@ struct ListHeaderView: View {
                 .padding(.trailing, 10)
             
         }
-        .background(Color.gray)
+        .background(Color("cardBackgroundColor"))
     }
 }
 
